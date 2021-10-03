@@ -38,12 +38,13 @@ h2 {
 #email {
     margin-top: 13px;
     padding: 15px;
-    
+    display: flex;
 }
 
 #pswrd {
     padding: 15px;
     margin-bottom: 15px;
+    display: flex;
 }
 
 .input {
