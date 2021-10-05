@@ -6,6 +6,11 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    background: rgb(231,196,116);
+    background: linear-gradient(90deg, rgba(231,196,116,1) 0%, rgba(183,120,222,1) 100%);
+}
+
 .space {
     margin-top: 23px;
 }
@@ -15,9 +20,10 @@
     max-height: 450px;
     margin: 0 auto;
     border: 1px solid #c1c9c6;
-    -webkit-box-shadow: 0 0 4px 4px #c1c9c6;
-    -moz-box-shadow: 0 0 4px 4px #c1c9c6;
-        box-shadow: 0 0 4px 4px #c1c9c6;
+    -webkit-box-shadow: 0 0 4px 4px slateblue;
+    -moz-box-shadow: 0 0 4px 4px black;
+        box-shadow: 0 0 4px 4px slateblue;
+    background: white;
 }
 
 h2 {
