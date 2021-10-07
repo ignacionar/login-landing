@@ -49,12 +49,18 @@ h2 {
 
 #pswrd {
     padding: 15px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
     display: flex;
+}
+
+#cbox {
+    margin-bottom: 25px;
+    font-size: 10px;
 }
 
 .input {
     border: 2px solid #c1c9c6;
+    font-size: 14px;
 }
 
 button {
