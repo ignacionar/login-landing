@@ -11,19 +11,20 @@ body {
     background: linear-gradient(90deg, rgba(231,196,116,1) 0%, rgba(183,120,222,1) 100%);
 }
 
-.space {
-    margin-top: 23px;
+span {
+    padding: 6px;
 }
 
 .contenedor {
     max-width: 300px;
-    max-height: 450px;
+    max-height: 520px;
     margin: 0 auto;
     border: 1px solid #c1c9c6;
     -webkit-box-shadow: 0 0 4px 4px slateblue;
     -moz-box-shadow: 0 0 4px 4px black;
         box-shadow: 0 0 4px 4px slateblue;
     background: white;
+    margin-top: 30px;
 }
 
 h2 {
@@ -83,14 +84,19 @@ button:active {
 
 a {
     text-decoration: none;
-    padding: 5px 5px;
+    padding: 2px 5px;
     border: 2px solid #c1c9c6;
     border-radius: 20px;
     color: #9a9c9b;
     font-size: 12px;
-    margin-top: 15px;
 }
 
 a:hover {
     text-decoration: underline;
+}
+.box2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
 }
