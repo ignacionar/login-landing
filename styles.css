@@ -111,5 +111,17 @@ a:hover {
     .box2 {
         margin-left: 50%;
         margin-right: 50%;
+        
+    }
+    #email {
+        margin-top: 13px;
+        padding: 5px;
+        display: flex;
+    }
+    
+    #pswrd {
+        padding: 5px;
+        margin-bottom: 5px;
+        display: flex;
     }
 }
