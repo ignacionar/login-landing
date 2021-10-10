@@ -107,21 +107,21 @@ a:hover {
     margin-top: 1rem;
 }
 
-@media (max-width: 500px) {
-    .box2 {
-        margin-left: 50%;
-        margin-right: 50%;
-        
-    }
+@media (max-width: 600px) {
+
     #email {
         margin-top: 13px;
-        padding: 5px;
+        padding: 10px 0px;
         display: flex;
+        
+        margin-right: 20%;
     }
     
     #pswrd {
         padding: 5px;
         margin-bottom: 5px;
         display: flex;
+        padding: 10px 0px;
+        margin-right: 20%;
     }
 }
