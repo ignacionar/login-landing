@@ -107,3 +107,9 @@ a:hover {
     margin-top: 1rem;
 }
 
+@media (max-width: 500px) {
+    .box2 {
+        margin-left: 50%;
+        margin-right: 50%;
+    }
+}
